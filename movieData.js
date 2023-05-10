@@ -6,7 +6,7 @@ const movieYear = document.querySelector("#movieYear");
 const movieContainer = document.querySelector("#movieContainer");
 
 searchButton.addEventListener("click", () => searchMovie());
-
+movieCardPhoto.addEventListener("click", ()=> movieDetails())
 
 
 async function searchMovie() {
